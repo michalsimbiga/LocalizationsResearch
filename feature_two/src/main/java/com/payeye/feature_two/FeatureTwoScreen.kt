@@ -13,7 +13,7 @@ import com.payeye.core.R
 @Composable
 fun FeatureTwoScreen() {
     Column(modifier = Modifier.fillMaxSize(), verticalArrangement = Arrangement.Center) {
-        val array = stringArrayResource(id = R.array.planets_array)
+        val array = stringArrayResource(id = com.payeye.feature_two.R.array.planets_array)
 
         Text(stringResource(id = R.string.beautifull_planets))
         array.forEach { planet ->
