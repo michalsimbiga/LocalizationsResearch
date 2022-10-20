@@ -17,7 +17,7 @@
     </string-array>
 
     <!--  Three  -->
-    <string name="is_this_song_a_song">Is this song a song?</string>
+    <string name="who_sings_this_song">Who sings this song?</string>
     <plurals name="numberOfSongsAvailable">
         <!--
              As a developer, you should always supply "one" and "other"

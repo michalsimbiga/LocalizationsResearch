@@ -14,7 +14,7 @@ import com.payeye.core.R
 fun FeatureThreeScreen() {
     Column(modifier = Modifier.fillMaxSize(), verticalArrangement = Arrangement.Center) {
 
-        Text(stringResource(id = R.string.is_this_song_a_song))
+        Text(stringResource(id = R.string.who_sings_this_song))
         repeat(30){ index ->
             Text(text = LocalContext.current.resources.getQuantityString(
                 R.plurals.numberOfSongsAvailable, index, index))
