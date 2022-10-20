@@ -1,6 +1,8 @@
 package com.payeye.localizationsresearch
 
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material.BottomNavigation
 import androidx.compose.material.BottomNavigationItem
 import androidx.compose.material.Icon
@@ -32,7 +34,9 @@ fun MainScreen() {
         Scaffold(
             bottomBar = { BottomNav(navController = navController) }
         ) {
-            NavigationGraph(navController = navController)
+            Box(modifier = Modifier.padding(it)) {
+                NavigationGraph(navController = navController)
+            }
         }
     }
 }

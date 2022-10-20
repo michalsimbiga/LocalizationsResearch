@@ -1,8 +1,8 @@
 package com.payeye.feature_three
 
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -12,12 +12,17 @@ import com.payeye.core.R
 
 @Composable
 fun FeatureThreeScreen() {
-    Column(modifier = Modifier.fillMaxSize(), verticalArrangement = Arrangement.Center) {
+    LazyColumn(modifier = Modifier.fillMaxSize(), verticalArrangement = Arrangement.Center) {
+        item {
+            Text(stringResource(id = R.string.who_sings_this_song))
+        }
 
-        Text(stringResource(id = R.string.who_sings_this_song))
-        repeat(30){ index ->
-            Text(text = LocalContext.current.resources.getQuantityString(
-                R.plurals.numberOfSongsAvailable, index, index))
+        items(100) { count ->
+            Text(
+                text = LocalContext.current.resources.getQuantityString(
+                    R.plurals.numberOfSongsAvailable, count, count
+                )
+            )
         }
     }
 }
