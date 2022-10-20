@@ -1,0 +1,8 @@
+<!-- Localizable created with localio. DO NOT MODIFY. -->
+<resources>
+  <string name="code_was_">Kod był</string>
+  <string name="code_was_sent_to">Kod został wysłany do %s.</string>
+  <string name="new_code_info">Możesz wygenerować nowy kod za %s minut.</string>
+  <string name="the_code_was_sent_info">Kod został wysłany do %1$s.\nMożesz wygenerować nowy kod za %2$s minut</string>
+
+</resources>

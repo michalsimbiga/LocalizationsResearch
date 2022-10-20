@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--  One -->
-    <string name="code_was_">The code was</string>
-    <string name="code_was_sent_to">The code was sent to %s.</string>
-    <string name="new_code_info">You can generate a new code in %s minutes.</string>
-    <string name="the_code_was_sent_info">The code was sent to %1$s.\nYou can generate a new code in %2$s minutes.</string>
-
-    <!--  Two -->
-    <string name="beautifull_planets">Beautifull planets</string>
     <string-array name="planets_array">
         <item>Mercury</item>
         <item>Venus</item>
@@ -16,8 +8,6 @@
         <item>Mars</item>
     </string-array>
 
-    <!--  Three  -->
-    <string name="is_this_song_a_song">Is this song a song?</string>
     <plurals name="numberOfSongsAvailable">
         <!--
              As a developer, you should always supply "one" and "other"
