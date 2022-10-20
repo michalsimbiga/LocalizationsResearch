@@ -1,0 +1,6 @@
+platform :android
+output_path '../../feature_two/src/main/res'
+source :xlsx,
+       :path => '../localizations.xlsx',
+       :sheet => 'Two'
+formatting :none

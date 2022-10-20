@@ -1,0 +1,6 @@
+platform :android
+output_path '../../feature_three/src/main/res'
+source :xlsx,
+       :path => '../localizations.xlsx',
+       :sheet => 'Three'
+formatting :none

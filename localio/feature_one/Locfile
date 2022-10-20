@@ -1,0 +1,6 @@
+platform :android
+output_path '../../feature_one/src/main/res'
+source :xlsx,
+       :path => '../localizations.xlsx',
+       :sheet => 'One'
+formatting :none
